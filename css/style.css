@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height: 900px;
   }
 }
 .fh5co-cover .display-t,
@@ -1238,13 +1238,14 @@ form label {
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
   border: none;
-  margin: 30px auto;
+  margin: 70px auto;
   width: 50%;
   position: relative;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  margin-top: 0px;
 }
 @media screen and (max-width: 992px) {
   #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
