@@ -3,6 +3,18 @@ async function sendMessage() {
     let alamat = document.getElementById('alamat').value
     let pesan = document.getElementById('pesan').value
 
+    if (nama === '') {
+        return alert('Harap mengisi nama anda')
+    }
+
+    if (alamat === '') {
+        return alert('Harap mengisi alamat anda, cth: Mentari, Buaran, dll')
+    }
+
+    if (pesan === '') {
+        return alert('Harap mengisi pesan yang ingin anda sampaikan kepada yang berbahagia')
+    }
+
     var data = JSON.stringify({
         "nama": nama,
         "alamat": alamat,
