@@ -1851,4 +1851,23 @@ form label {
   opacity: 0;
 }
 
+.btn-open:hover {
+  background-color: #F14E95 !important;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.btn-open {
+  animation: btn-open-animate 0.5s ease infinite alternate;
+}
+
+@keyframes btn-open-animate {
+  0% {
+    transform: scaleX(100%);
+  }
+  100% {
+    transform: scaleX(120%);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
