@@ -31,7 +31,7 @@ async function sendMessage() {
         }
       });
       
-      xhr.open("POST", "https://floating-lake-26224.herokuapp.com/ucapan");
+      xhr.open("POST", "https://jayschika-wedding-api.jaysrahman.repl.co/ucapan");
       xhr.setRequestHeader("Content-Type", "application/json");
       xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
       
@@ -68,7 +68,7 @@ async function getMessage() {
     }
     });
 
-    xhr.open("GET", "https://floating-lake-26224.herokuapp.com/ucapan");
+    xhr.open("GET", "https://jayschika-wedding-api.jaysrahman.repl.co/ucapan");
 
     xhr.send();
 //     var requestOptions = {
